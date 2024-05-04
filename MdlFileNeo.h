@@ -1,11 +1,34 @@
-// HHD Software Hex Editor Neo
-//structure Definition File
-// Creation date: 03.05.2024 10:48:38
+//-
+// Copyright (c) 2010 Yurii Hladyshenko
+// https://github.com/Duude92/goldsrc-mdl-neo-struct
+// All rights reserved.
 //
-// Consult thestructure Viewer documentation for more information:
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions
+// are met:
+// 1. Redistributions of source code must retain the above copyright
+//    notice, this list of conditions and the following disclaimer.
+// 2. Redistributions in binary form must reproduce the above copyright
+//    notice, this list of conditions and the following disclaimer in the
+//    documentation and/or other materials provided with the distribution.
 //
-// *structure Viewer Overview: https://www.hhdsoftware.com/online-doc/hex/structure-viewer
-// * Language Reference: https://www.hhdsoftware.com/online-doc/hex/language-reference
+// THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+// ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+// IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+// ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+// FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+// DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+// OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+// HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+// LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+// OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+// SUCH DAMAGE.
+
+// These definitions are based on:
+// - The public specification of the MDL format within Open Asset Import Library Repository
+//   See: https://github.com/malortie/assimp/wiki/MDL:-Half-Life-1-file-format
+// - The Sledge editor repository
+//	 See: https://github.com/LogicAndTrick/sledge/blob/master/Sledge.Providers/Model/Mdl10/Format/MdlFile.cs
 
 // Include standard type definitions
 #include "stddefs.h"
